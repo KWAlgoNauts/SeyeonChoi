@@ -15,6 +15,7 @@ public class p10773 {
             } else {
                 s.push(num);
             }
+            System.out.println(s);
         }
 
         for (int value : s) {
