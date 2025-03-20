@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class 1475 {
+public class p1475 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String n = br.readLine();

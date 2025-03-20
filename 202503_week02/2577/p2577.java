@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class 2577 {
+public class p2577 {
 public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int a = Integer.parseInt(br.readLine());
