@@ -21,9 +21,6 @@ public class p1021 {
         }
 
         int cnt = 0;
-        int min = 0;
-        int left = 0;
-        int right = 0;
 
         for (int i = 0; i < M; i++) {
             int temp_left = 0;
