@@ -94,6 +94,21 @@ public class p2206 {
         cnt = 0;
         bfs(1, 1);
 
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                System.out.print(visit[i][j][0] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                System.out.print(visit[i][j][1] + " ");
+            }
+            System.out.println();
+        }
+
         System.out.println(cnt);
     }
 }
