@@ -19,7 +19,7 @@ public class p1992 {
             if (check) System.out.print("(" + temp + ")");
             else System.out.print(start);
 
-        } else {  // 한 변의 길이 8 아닌 경우
+        } else {
             for (int i = x; i < x+size; i++) {
                 for (int j = y; j < y+size; j++) {
                     if (start != arr[i][j]) {
