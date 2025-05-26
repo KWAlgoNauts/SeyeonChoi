@@ -6,7 +6,6 @@ public class p15651 {
     static int m;
     static int[] arr;
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    // false 위치를 잘 해주면 될 것 같음.
 
     // 현재 k개까지 수를 택했음.
     static void backTracking(int at, int depth) throws IOException{
